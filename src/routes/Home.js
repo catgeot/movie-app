@@ -1,6 +1,6 @@
 import { Component } from "../core/catgeot"
 import Headline from "../components/Headline" 
-import Search from "../components/search"
+import Search from "../components/Search"
 import MovieList from "../components/MovieList"
 import MovieListMore from "../components/MovieListMore"
 
