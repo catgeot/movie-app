@@ -12,11 +12,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/node-fetch": "^2.6.11",
     "dotenv": "^16.4.4",
     "parcel": "^2.11.0",
+    "typescript": "^5.3.3",
     "vercel": "^33.5.1"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "undici": "^6.6.2"
   }
 }
