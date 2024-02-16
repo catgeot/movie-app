@@ -1,7 +1,16 @@
 import { Store } from '../core/catgeot'
 
-export default new Store ({
-	photo: 'http://localhost:1234/logo%20copy.8dd41fb3.png',
+interface State {
+	photo: string
+	name: string
+	email: string
+	blog: string
+	github: string
+	repository: string
+}
+
+export default new Store <State> ({
+	photo: 'logo.726d37a8.png',
 	name: 'CATGEOT',
 	email: 'catgeot@gmail.com',
 	blog: 'https://catgeot.netlify.app/',
