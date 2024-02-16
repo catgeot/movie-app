@@ -1,4 +1,5 @@
 import { Component } from "../core/catgeot"
+import  logoIcon  from "../img/logo.png"
 
 interface State {
 	[key: string]: unknown
@@ -59,7 +60,7 @@ export default class TheHeader extends Component {
 			</ul>
 		</nav>
 		<a href="#/about" class="user">
-			<img src="logo.726d37a8.png" alt="User">
+			<img src="${logoIcon}" alt="User">
 		</a>
 		`
 	}
