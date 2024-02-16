@@ -10,10 +10,10 @@ export default class extends Component {
 				style="background-image: url('${photo}');" 
 				class="photo"></div>
 			<p class="name">${name}</p>
-			<p>
-				<a href="https://mail.goole.com/mail/?view=cm&fs=1&to=${email}" 
-				target="blank">
-				${email}</a>
+			<p>				
+				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=${email}" 
+   				target="_blank">
+   				${email}</a>
 			</p>
 			<p><a href="${github}" target="blank">GITHUB</a></p>
 			<p><a href="${blog}" target="blank">Blog</a></p>
