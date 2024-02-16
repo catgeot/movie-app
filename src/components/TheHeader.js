@@ -50,7 +50,7 @@ export default class TheHeader extends Component {
 			</ul>
 		</nav>
 		<a href="#/about" class="user">
-			<img src="/logo%20copy.8dd41fb3.png" alt="User">
+			<img src="logo.726d37a8.png" alt="User">
 		</a>
 		`
 	}
